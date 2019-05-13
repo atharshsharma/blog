@@ -1,0 +1,282 @@
+    $light-blue: #14aecf;
+    $gray-light: #f5f5f5;
+    $gray-lightes: #aaa;
+    $light-green: #00979f;
+    $dark-pink: #aa2173;
+    $light-purple: #6d166d;
+    $dark-red: #f73913;
+    .banner-section {
+        line-height: 0;
+        position: relative;
+    }
+     // .banner {
+    //     @include img-inbg;
+    //     padding-bottom: 50%;
+    //     min-height: 46rem;
+    //     &:before {
+    //         content: '';
+    //         background-color: rgba(0, 0, 0, .5);
+    //         position: absolute;
+    //         top: 0;
+    //         bottom: 0;
+    //         right: 0;
+    //         left: 0;
+    //     }
+    // }
+    .intro {
+        height: 100vh;
+        position: relative;
+        display: flex;
+        flex: 0 0 100%;
+        max-height: 100vh;
+    }
+
+    .parallax-container {
+        overflow: hidden;
+    }
+
+    .video-background {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 1;
+        font-kerning: normal;
+        background-blend-mode: multiply;
+        &:before {
+            content: '';
+            background-color: rgba(0, 0, 0, .5);
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+        }
+        video {
+            width: auto;
+            height: auto;
+            min-width: 100%;
+            min-height: 100%;
+        }
+    }
+
+    .banner-text {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-top: 4rem;
+        width: 100%;
+        @include transform(translate(-50%, -50%));
+        z-index: 11;
+        line-height: 1.5;
+        .banner-title {
+            font-size: 7.625rem;
+            letter-spacing: 2px;
+            font-family: 'tungsten-medium';
+        }
+
+        .call-button {
+            font-size: 1rem;
+            background-color: $light-blue;
+            font-family: 'proxima_nova';
+        }
+
+        .inst {
+            font-weight: 400;
+            font-size: 1.2rem;
+            letter-spacing: 0.1em;
+        }
+    }
+
+    .about-section {
+        .about-img {
+            @include img-inbg;
+            padding-bottom: 100%;
+        }
+
+        .about-title {
+            font-size: 1.5625rem;
+            line-height: 1.2;
+            font-family: 'proxima_nova';
+            letter-spacing: 1px;
+        }
+
+        .about-subtitle {
+            color: $gray-lightes;
+            font-size: 20px;
+            font-family: 'Georgia';
+        }
+
+        .about-desc {
+            font-size: 18px;
+            line-height: 1.63;
+        }
+
+        .more-btn {
+            font-family: 'Georgia';
+        }
+
+        .btn-more {
+            color: $light-blue;
+            font-size: 20px;
+        }
+    }
+
+    .monials-title {
+        font-size: 25px;
+        font-family: 'proxima_nova';
+    }
+
+    .monials-sub-title {
+        color: $gray-lightes;
+        font-size: 15px;
+        font-family: 'Georgia';
+    }
+    .call-section {
+        background-color: $gray-light;
+        .btn-call {
+            background-color: $light-blue;
+        }
+    }
+
+    .testimonials-section {
+        .testimonials-banner {
+            @include img-inbg;
+            &:before {
+                content: '';
+                background-color: rgba(0, 0, 0, .5);
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                left: 0;
+            }
+        }
+
+        .testimonials-content {
+            position: relative;
+        }
+
+        .testimonials-img {
+            @include img-inbg;
+            padding-bottom: 68%;
+        }
+    }
+
+    .signup-section {
+        .signup-content {
+            padding: 75px 0;
+        }
+
+        .signup-title {
+            font-size: 15px;
+            letter-spacing: 1px;
+            font-family: 'Georgia';
+        }
+
+        .signup-subtitle {
+            font-size: 1.5625rem;
+            line-height: 30px;
+            font-family: 'proxima_nova';
+            letter-spacing: 1px;
+        }
+
+        .btn-sign {
+            font-size: 15px;
+            font-family: 'proxima_nova';
+            letter-spacing: 0.1em;
+        }
+    }
+
+    .product-section {
+        .product-title {
+            font-size: 1.5625rem;
+            line-height: 1.2;
+            font-family: 'proxima_nova';
+            letter-spacing: 1px;
+        }
+
+        .product {
+            position: relative;
+            a {
+                &:hover {
+                    .podcast-title {
+                        font-size: 2.5rem;
+                    }
+                    p {
+                        max-height: 300px;
+                        padding-top: 17px;
+                        opacity: 1;
+                        transition: max-height 0.7s, padding 0.3s, opacity 1s;
+                    }
+                }
+            }
+            .product-img {
+                @include img-inbg;
+                min-height: 25rem;
+                &:before {
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    top: 0;
+                    left: 0;
+                    opacity: .3;
+                    background: $black;
+                    transition: opacity 0.3s;
+                }
+            }
+            .podcast-content {
+                position: absolute;
+                width: 100%;
+                left: 0;
+                top: 50%;
+                padding: 0 15px;
+                transform: translate(0, -50%);
+                .podcast-title {
+                    font-size: 2rem;
+                    transition: font-size 0.3s;
+                    font-family: 'Tungsten-Medium';
+                    letter-spacing: 3px;
+                }
+            }
+            p {
+                font-size: 16px;
+                line-height: 1.63;
+                margin: 0 0 2rem;
+                max-height: 0;
+                margin: 0;
+                overflow: hidden;
+                opacity: 0;
+                transition: max-height 0.3s, padding 0.3s, opacity 0.3s;
+            }
+        }
+
+        .logo-icon {
+            width: 50px;
+        }
+
+        .product-desc {
+            font-size: 18px;
+            color: $light-purple;
+        }
+
+        .btn-blog {
+            font-size: 15px;
+            font-family: 'proxima_nova';
+            letter-spacing: 0.1em;
+        }
+    }
+
+    @include media-breakpoint-down(md) {
+        .banner-text {
+            .banner-title {
+                font-size: 4.625rem;
+            }
+            .inst {
+                font-size: 1.5rem;
+                padding: 0 3px;
+            }
+        }
+    }

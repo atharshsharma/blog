@@ -1,0 +1,54 @@
+$blue-sky:#14aecf;
+
+.footer-section {
+    background-color: $black;
+    .title {
+        font-size: 16px;
+        font-family: 'proxima_nova';
+        line-height: 24px;
+        letter-spacing: 1px;
+        max-width: 198px;
+    }
+    .address {
+        font-size: 16px;
+        font-family: 'proxima_nova';
+        max-width: 198px;
+    }
+    .social-section {
+        .social-title {
+            font-size: 16px;
+            font-family: 'proxima_nova';
+            letter-spacing: 1px;
+        }
+        .social-icon {
+            font-size: 1.2rem;
+        }
+    }
+    .list {
+        width: 50%;
+        float: left;
+        a {
+            line-height: 1.9;
+        }
+    }
+    .widget {
+        a {
+            color: $blue-sky;
+            font-size: 16px;
+            font-family: 'proxima_nova';
+            letter-spacing: 1px;
+            .right-icon {
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+
+
+@include media-breakpoint-down(md) {
+    .footer-section {
+		.list {
+            width: 100%;
+        }
+    }
+}

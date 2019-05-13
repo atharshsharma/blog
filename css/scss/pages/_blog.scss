@@ -1,0 +1,178 @@
+$lightes-gray: #e2e2e2;
+
+.blog-page {
+    line-height: 0;
+    .block-banner {
+        @include img-inbg;
+        padding-bottom: 48%;
+        min-height: 50rem;
+        line-height: 1.5;
+        &:before {
+            content: '';
+            background-color: rgba(0, 0, 0, .5);
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+        }
+    }
+    .form-filters {
+        background-color: $graylight;
+        .custom-dropdown {
+            max-width: 273px;
+            margin: 0 auto;
+            position: relative;
+            &:after {
+                @include transform(translate(0, -50%));
+                content: '\f2f9';
+                font: normal normal normal 14px/1 'Material-Design-Iconic-Font';
+                font-size: 1.5rem;
+                display: inline-block;
+                right: 0;
+                position: absolute;
+                top: 50%;
+                z-index: 1;
+                color: $black;
+                padding-right: .75rem;
+                pointer-events: none;
+            }
+            .form-control {
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                height: calc(2.25rem + 18px) !important;
+                border: 2px solid $black;
+                background: transparent;
+            }
+        }
+
+        .custom-dropdown-sm {
+            .form-control {
+                height: calc(2.25rem + 2px) !important;
+            }
+        }
+        .categary{
+            font-size: 12px;
+        }
+    }
+    .seo-title {
+        font-size: 1.5rem;
+        letter-spacing: 4px;
+        font-family: 'proxima_nova';
+    }
+    .profile-desc {
+        max-width: 80%;
+        p,
+        span {
+            line-height: 1.5;
+        }
+        .btn-readless {
+            display: none;
+            color: $light-blue;
+            &:before {
+                content: '...';
+            }
+        }
+        .hide {
+            display: none;
+            white-space: pre-line;
+        }
+        &.open {
+            .btn-readmore {
+                display: none;
+            }
+            .btn-readless {
+                display: block;
+            }
+            .hide {
+                display: block;
+            }
+        }
+        .btn-readmore {
+            position: relative;
+            color: $light-blue;
+            &:before {
+                content: '...';
+            }
+        }
+    }
+    .product {
+        position: relative;
+        a {
+            &:hover {
+                .podcast-title {
+                    font-size: 2.5rem;
+                }
+                p {
+                    max-height: 300px;
+                    padding-top: 17px;
+                    opacity: 1;
+                    transition: max-height 0.7s, padding 0.3s, opacity 1s;
+                }
+            }
+        }
+        .product-img {
+            @include img-inbg;
+            min-height: 25rem;
+            &:before {
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                opacity: .3;
+                background: $black;
+                transition: opacity 0.3s;
+            }
+        }
+        .podcast-content {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            top: 50%;
+            padding: 0 15px;
+            transform: translate(0, -50%);
+            .podcast-title {
+                font-size: 2rem;
+                transition: font-size 0.3s;
+                font-family: 'Tungsten-Medium';
+                letter-spacing: 3px;
+            }
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.63;
+            margin: 0 0 2rem;
+            max-height: 0;
+            margin: 0;
+            overflow: hidden;
+            opacity: 0;
+            transition: max-height 0.3s, padding 0.3s, opacity 0.3s;
+        }
+    }
+    .logo-icon {
+        width: 50px;
+    }
+    .product-desc {
+        font-size: 18px;
+        color: $light-purple;
+    }
+    .btn-blog {
+        font-size: 15px;
+        font-family: 'proxima_nova';
+        letter-spacing: 0.1em;
+    }
+    .line-content {
+        border-top: 1px solid $lightes-gray;
+        border-bottom: 1px solid $lightes-gray;
+        .page-item {
+            .page-link {
+                font-size: 16px;
+                color: $black;
+                font-family: 'Georgia';
+            }
+        }
+    }
+}

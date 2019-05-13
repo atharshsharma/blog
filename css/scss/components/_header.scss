@@ -1,0 +1,65 @@
+.site-header {
+    transition: all 0.8s linear;
+    &.banner-header {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        z-index: 999;
+    }
+    .menu-toggle {
+        .bar-w {
+            font-size: 2rem;
+        }
+    }
+    .search-icon {
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+    .site-logo {
+        .logo-section {
+            font-size: calc(2.5rem + 1vw);
+             font-family: 'Arizonia-Regular';
+             margin-top: -2rem;
+
+        }
+    }
+}
+
+@media(max-width: 991px) {
+    .header-menu {
+        transform: translateX(100%);
+        @include transition(.3s all linear);
+        position: fixed;
+        z-index: 1041;
+        background-color: $gray-900;
+        right: 0;
+        padding: 0;
+        width: 225px;
+        height: 100vh;
+        top: 0;
+        &.open {
+            transform: none;
+        }
+    }
+    .overlay {
+        position: fixed;
+        width: 200vw;
+        height: 200vh;
+        margin-top: -50vh;
+        margin-left: -50vw;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1040;
+        background-color: $white;
+        opacity: 0;
+        visibility: hidden;
+        @include transition(all .15s linear);
+        &.open {
+            opacity: .6;
+            visibility: visible;
+        }
+    }
+}
