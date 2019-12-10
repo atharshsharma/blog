@@ -15,10 +15,6 @@
                 <ul>
                     <li><a href="pages/home.php" target="_blank">Home page</a></li>
                     <li><a href="pages/about.php" target="_blank">About page</a></li>
-                    <li><a href="pages/blog-page.php" target="_blank">Blog-page</a></li>
-                    <li><a href="pages/single-blog.php" target="_blank">Single-blog page</a></li>
-                    <li><a href="pages/single-category.php" target="_blank">Single-category page</a></li>
-                    <li><a href="pages/videos.php" target="_blank">Videos page</a></li>
                 </ul>
             </div>
         </div>
