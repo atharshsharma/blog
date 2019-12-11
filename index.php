@@ -15,6 +15,9 @@
                 <ul>
                     <li><a href="pages/home.php" target="_blank">Home page</a></li>
                     <li><a href="pages/about.php" target="_blank">About page</a></li>
+                    <li><a href="pages/blog.php" target="_blank">Blog page</a></li>
+                    <li><a href="pages/blog-post.php" target="_blank">Blog-post page</a></li>
+                    <li><a href="pages/contact-us.php" target="_blank">Contact-us Page</a></li>
                 </ul>
             </div>
         </div>
