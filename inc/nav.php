@@ -1,4 +1,4 @@
-<header class="site-header banner-header w-100 pt-5">
+<header class="site-header banner-header w-100 pt-5 <?php echo $HeaderClass ?>">
 	<div class="w-100 d-inline-block">
 		<div class="container">
 			<div class="site-logo float-left mt-lg-3">
@@ -35,7 +35,7 @@
 						<a href="#" class="d-block p-3 p-lg-0 text-white">Our Team</a>
 					</li>
 					<li class="d-lg-inline-block p-lg-3">
-						<a href="#" class="d-block p-3 p-lg-0 text-white">Contact Us</a>
+						<a href="login.php" class="d-block p-3 p-lg-0 text-white">Login</a>
 					</li>
 					<li class="search-icon d-lg-inline-block d-sm-none d-inline-block align-middle">
 						<span><i class="zmdi zmdi-search text-white font-weight-bold"></i></span>

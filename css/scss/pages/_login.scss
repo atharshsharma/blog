@@ -1,0 +1,61 @@
+.contact-us {
+    .banner-img {
+        @include img-inbg;
+        height: 100vh;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        .text-head {
+            position: absolute;
+            top: 50%;
+            right: 0%;
+            transform: translate(0%, -50%);
+            margin-right: 420px;
+
+            .name {
+                font-size: 2.3rem;
+            }
+
+            .sub-title {
+                font-size: calc(2rem + 1vw);
+            }
+        }
+    }
+
+    .form-section {
+        width: 400px;
+        background-color: #333333;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        z-index: 99;
+
+        label {
+            font-size: 1.2rem;
+        }
+
+        .form-control {
+            border-radius: 0;
+            padding: 0.6rem 0.75rem;
+            border: 0;
+        }
+
+        .password-text {
+            font-size: .8rem;
+        }
+
+        .svg-icon {
+            vertical-align: bottom;
+        }
+    }
+    .back-arrow{
+        font-size: 1rem;
+        color: #ffffff;
+        vertical-align: middle;
+    }
+    .btn-div{
+        cursor: pointer;
+    }
+}

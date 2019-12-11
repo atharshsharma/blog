@@ -8556,8 +8556,9 @@ a.text-dark:focus, a.text-dark:hover {
 .contact-us .banner-img .text-head {
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  right: 0%;
+  transform: translate(0%, -50%);
+  margin-right: 420px;
 }
 .contact-us .banner-img .text-head .name {
   font-size: 2.3rem;
@@ -8565,7 +8566,7 @@ a.text-dark:focus, a.text-dark:hover {
 .contact-us .banner-img .text-head .sub-title {
   font-size: calc(2rem + 1vw);
 }
-.contact-us .banner-img .form-section {
+.contact-us .form-section {
   width: 400px;
   background-color: #333333;
   height: 100vh;
@@ -8573,16 +8574,27 @@ a.text-dark:focus, a.text-dark:hover {
   align-items: center;
   z-index: 99;
 }
-.contact-us .banner-img .form-section label {
+.contact-us .form-section label {
   font-size: 1.2rem;
 }
-.contact-us .banner-img .form-section .form-control {
+.contact-us .form-section .form-control {
   border-radius: 0;
   padding: 0.6rem 0.75rem;
   border: 0;
 }
-.contact-us .banner-img .form-section .password-text {
+.contact-us .form-section .password-text {
   font-size: 0.8rem;
+}
+.contact-us .form-section .svg-icon {
+  vertical-align: bottom;
+}
+.contact-us .back-arrow {
+  font-size: 1rem;
+  color: #ffffff;
+  vertical-align: middle;
+}
+.contact-us .btn-div {
+  cursor: pointer;
 }
 
 .footer-section {
@@ -8699,6 +8711,10 @@ a.text-dark:focus, a.text-dark:hover {
   right: 0;
   top: 0;
   z-index: 999;
+}
+.site-header.bg-header {
+  position: relative;
+  background-color: #000000;
 }
 .site-header .menu-toggle .bar-w {
   font-size: 2rem;

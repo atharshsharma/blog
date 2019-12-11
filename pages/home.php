@@ -1,5 +1,6 @@
 <?php include_once '../inc/head.php';?>
 <body>
+	<?php $HeaderClass = ' ';?>
 	<?php include_once '../inc/nav.php';?>
 	<main>
 		<!-- <div class="banner-section">
