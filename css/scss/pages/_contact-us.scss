@@ -1,0 +1,14 @@
+.contact-page {
+    .form-head {
+        max-width: 800px;
+    }
+
+    .form-control {
+        &:focus {
+            box-shadow: none;
+        }
+	}
+	textarea {
+        resize: none;
+    }
+}

@@ -8597,6 +8597,16 @@ a.text-dark:focus, a.text-dark:hover {
   cursor: pointer;
 }
 
+.contact-page .form-head {
+  max-width: 800px;
+}
+.contact-page .form-control:focus {
+  box-shadow: none;
+}
+.contact-page textarea {
+  resize: none;
+}
+
 .footer-section {
   background-color: #000;
 }
@@ -8715,6 +8725,7 @@ a.text-dark:focus, a.text-dark:hover {
 .site-header.bg-header {
   position: relative;
   background-color: #000000;
+  padding-top: 1rem !important;
 }
 .site-header .menu-toggle .bar-w {
   font-size: 2rem;

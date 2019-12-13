@@ -32,7 +32,7 @@
 						</div>
 						<div>
 							<div class="my-3">
-								<a href="contact-us.php">
+								<a href="login.php">
 									<span class="pr-2">
 										<i class="zmdi zmdi-arrow-left back-arrow"></i>
 									</span>

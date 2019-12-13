@@ -32,7 +32,7 @@
 						<a href="blog-post.php" class="d-block p-3 p-lg-0 text-white">Blog</a>
 					</li>
 					<li class="d-lg-inline-block p-lg-3">
-						<a href="#" class="d-block p-3 p-lg-0 text-white">Our Team</a>
+						<a href="contact-us.php" class="d-block p-3 p-lg-0 text-white">Contact Us</a>
 					</li>
 					<li class="d-lg-inline-block p-lg-3">
 						<a href="login.php" class="d-block p-3 p-lg-0 text-white">Login</a>

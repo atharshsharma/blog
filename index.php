@@ -19,7 +19,7 @@
                     <li><a href="pages/blog-post.php" target="_blank">Blog-post page</a></li>
                     <li><a href="pages/login.php" target="_blank">Login Page</a></li>
                     <li><a href="pages/password-screen.php" target="_blank">password-screen</a></li>
-                    <li><a href="pages/password-screen.php" target="_blank">Contact Us</a></li>
+                    <li><a href="pages/contact-us.php" target="_blank">Contact Us</a></li>
                 </ul>
             </div>
         </div>
