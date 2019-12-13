@@ -23,7 +23,7 @@
 						<a href="#" class="d-block p-3 p-lg-0 text-white">Portfolio</a>
 					</li>
 					<li class="d-lg-inline-block p-lg-3">
-						<a href="#" class="d-block p-3 p-lg-0 text-white">Testimonial</a>
+						<a href="my-business.php" class="d-block p-3 p-lg-0 text-white">My Business</a>
 					</li>
 					<li class="d-lg-inline-block p-lg-3">
 						<a href="#" class="d-block p-3 p-lg-0 text-white">Services</a>

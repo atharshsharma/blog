@@ -20,6 +20,7 @@
                     <li><a href="pages/login.php" target="_blank">Login Page</a></li>
                     <li><a href="pages/password-screen.php" target="_blank">password-screen</a></li>
                     <li><a href="pages/contact-us.php" target="_blank">Contact Us</a></li>
+                     <li><a href="pages/my-business.php" target="_blank">My Business</a></li>
                 </ul>
             </div>
         </div>

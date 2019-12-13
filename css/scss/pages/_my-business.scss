@@ -1,0 +1,55 @@
+.my-business-page{
+	.bg-img{
+		@include img-inbg;
+        padding-bottom: 50%;
+        min-height: 630px;
+        &:before{
+			content: "";
+		    background-color: rgba(0, 0, 0, 0.5);
+		    position: absolute; 
+		    top: 0;
+		    bottom: 0;
+		    right: 0;
+		    left: 0;
+        }
+        .business-text{
+        	position: absolute;
+        	left: 50%;
+        	top: 50%;
+        	transform: translate(-50%,-50%);
+        	text-align: center;
+        	color: $white;
+        	.business-title{
+        		font-size: calc(2.5rem + 1vw);
+			}
+			.business-desc{
+				font-size: 1.2rem;
+			}
+			.btn-div{
+				min-width: 200px;
+			}
+        }
+	}
+	.sub-title{
+		max-width: 212px;
+		margin: 1rem auto;
+	}
+	.training-section{
+		background-color: #f4f4f4;
+	}
+}
+
+@include media-breakpoint-down(md){
+	.my-business-page{
+		.bg-img{
+			.business-text{
+				width: 100%;
+				padding: 0 1rem;
+				margin-top: 5rem;
+				.business-title{
+					font-size: calc(1rem +1vw);
+				}
+			}
+		}
+	}
+}
