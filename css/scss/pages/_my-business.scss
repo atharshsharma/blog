@@ -36,6 +36,16 @@
 	}
 	.training-section{
 		background-color: #f4f4f4;
+		.training-img{
+			@include img-inbg;
+			padding-bottom: 56%;
+		}
+		.box-design{
+			background-color: #ffffff;
+		}
+		.training-desc{
+			font-size: 1rem;
+		}
 	}
 }
 

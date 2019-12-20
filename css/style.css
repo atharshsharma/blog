@@ -8652,6 +8652,23 @@ a.text-dark:focus, a.text-dark:hover {
 .my-business-page .training-section {
   background-color: #f4f4f4;
 }
+.my-business-page .training-section .training-img {
+  height: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 56%;
+}
+.my-business-page .training-section .box-design {
+  background-color: #ffffff;
+}
+.my-business-page .training-section .training-desc {
+  font-size: 1rem;
+}
 
 @media (max-width: 991px) {
   .my-business-page .bg-img .business-text {

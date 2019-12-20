@@ -11,13 +11,13 @@
 				</p>
 				<div class="my-5">
 					<div class="d-block d-md-inline-block pr-0 pr-md-4 my-3">
-						<a href="#" class="btn btn-primary text-uppercase rounded-0 py-2 font-weight-bold btn-div">Get Free Tools</a>	
+						<a href="#" class="btn btn-primary text-uppercase rounded-0 py-2 font-weight-bold btn-div">Get Free Tools</a>
 					</div>
 					<div class="d-block d-md-inline-block">
 						<a href="#" class="btn btn-outline-light text-uppercase rounded-0 py-2 font-weight-bold btn-div">
 							Watch Overview
 							<span><i class="zmdi zmdi-youtube-play pl-2"></i></span>
-						</a>	
+						</a>
 					</div>
 					
 				</div>
@@ -30,7 +30,7 @@
 				</p>
 				<p class="text-center my-2">
 					Even a miniscule shift in your approach can create geometric profit growth and an entirely new level of success for your company. Take back your time and achieve true financial freedom with the support of Tony Robbins’ proven business training solutions.
-				</p>	
+				</p>
 			</div>
 			<div class="row my-5">
 				<div class="col-md-4 text-center">
@@ -52,20 +52,65 @@
 					</div>
 				</div>
 			</div>
- 		</div>
- 		<div class="training-section">
- 			<div class="container">
- 				<div class="text-center py-4">
- 					<h2 class="text-uppercase my-2 font-weight-bold">Powerful Training. Spectacular Results.</h2>
- 					<h5 class="text-uppercase">Experience Results And Achieve Your Goals With Nandish Ajani’ Proven Business Training Solutions.</h5>	
- 				</div>
- 				<div class="row">
- 					<div class="col-md-4"></div>
- 				</div>
- 				
- 			</div>
- 		</div>
-	</main> 
+		</div>
+		<div class="training-section">
+			<div class="container">
+				<div class="text-center py-4">
+					<h2 class="text-uppercase my-2 font-weight-bold">Powerful Training. Spectacular Results.</h2>
+					<h5 class="text-uppercase">Experience Results And Achieve Your Goals With Nandish Ajani’ Proven Business Training Solutions.</h5>
+				</div>
+				<div class="row py-5">
+					<div class="col-md-4">
+						<div class="box-design">
+							<div class="training-img" style="background-image: url('../images/metting.jpg');"></div>
+							<div class="training-text p-3 text-center">
+								<h4 class="text-uppercase training-title">Business Seminars</h4>
+								<p class="training-desc">
+									Whether you attend one of Nandish Ajani’ live seminars alone or with your entire team, you’ll take a deep dive into the areas of your business where you can make significant shifts toward geometric profit growth.
+								</p>
+								<div class="my-3">
+									<a href="#" class="btn btn-primary d-block rounded-0 py-2 text-uppercase font-weight-bold">Learn More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="box-design">
+							<a href="">
+								<div class="training-img" style="background-image: url('../images/metting.jpg');"></div>	
+							</a>
+							<div class="training-text p-3 text-center">
+								<h4 class="text-uppercase training-title">Business Coaching</h4>
+								<p class="training-desc">
+									Nandish Ajani Business Results Coaching is focused on exactly one outcome: getting you the results you need. Eliminate roadblocks, create geometric growth, and build a plan to thrive, no matter what the future.
+								</p>
+								<div class="my-3">
+									<a href="#" class="btn btn-primary d-block rounded-0 py-2 text-uppercase font-weight-bold">Learn More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="box-design">
+							<a href="">
+								<div class="training-img" style="background-image: url('../images/metting.jpg');"></div>	
+							</a>
+							
+							<div class="training-text p-3 text-center">
+								<h4 class="text-uppercase training-title">Team Training Workshops</h4>
+								<p class="training-desc">
+									This six-month program focuses on six core business systems, from time management to team optimization. Whether online or in person, these workshops will prepare your business for unprecedented success.
+								</p>
+								<div class="my-3">
+									<a href="#" class="btn btn-primary d-block rounded-0 py-2 text-uppercase font-weight-bold">Learn More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
 	<?php include_once '../inc/footer.php';?>
 </body>
-</html>	
+</html>
